@@ -9,8 +9,7 @@ import { analyzeRouteSafety } from './services/safetyScorer';
 import { computeWalkingRoutes, searchLocationByText } from './services/googleMapsService';
 import { AlertCircle } from 'lucide-react';
 
-const GOOGLE_MAPS_API_KEY =
-  import.meta.env.VITE_GOOGLE_MAPS_API_KEY || 'AIzaSyBG0TqeBHnq_4re-VaGjAw7t3CVp2_43vY';
+const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY || '';
 
 export default function App() {
   const [selectedScenario, setSelectedScenario] = useState<DemoScenario>(DEMO_SCENARIOS[0]);
