@@ -1,0 +1,6 @@
+{
+  "name": "AMOGH SafePath",
+  "description": "Mobile-first AI safety-scored navigation calculating the safest walking path segment-by-segment with real-time active business presence and Google Maps street insights.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
